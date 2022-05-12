@@ -1,0 +1,4 @@
+alias kubeauth='gcloud container clusters get-credentials'
+alias kx='kubectx'
+alias k='kubectl'
+alias brewskip='HOMEBREW_NO_AUTO_UPDATE=1 brew'
