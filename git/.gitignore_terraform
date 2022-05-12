@@ -1,0 +1,15 @@
+# vscode
+.vscode/
+
+# Local .terraform directories
+**/.terraform/*
+# Ignore lockfile from TF 0.14+
+.terraform.lock.hcl
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# GCP service account credential files
+*credentials.json
+*credentials*.json
