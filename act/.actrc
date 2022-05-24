@@ -1,0 +1,5 @@
+# Configuring https://github.com/nektos/act
+# see https://github.com/nektos/act#configuration
+
+# As I am using colima https://github.com/abiosoft/colima, I have to set the DOCKER_HOST specifically
+--env DOCKER_HOST="unix://$HOME/.colima/docker.sock"

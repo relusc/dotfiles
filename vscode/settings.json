@@ -35,7 +35,8 @@
   "files.associations": {
     "*.go": "go",
     "*.tfvars": "terraform",
-    ".gcloudignore": "ignore"
+    ".gcloudignore": "ignore",
+    ".*rc": "plaintext"
   },
   "go.toolsManagement.autoUpdate": true,
   "redhat.telemetry.enabled": false,
