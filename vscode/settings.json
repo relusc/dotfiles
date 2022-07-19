@@ -23,7 +23,6 @@
     "external": true,
     "args": ["serve"]
   },
-  "window.zoomLevel": 0,
   "editor.suggestSelection": "first",
   "files.trimFinalNewlines": true,
   "files.trimTrailingWhitespace": true,
@@ -35,6 +34,7 @@
   "files.associations": {
     "*.go": "go",
     "*.tfvars": "terraform",
+    "*.hcl": "terraform",
     ".gcloudignore": "ignore",
     ".*rc": "plaintext"
   },
@@ -44,5 +44,8 @@
     "vscode-kubernetes.kubectl-path.mac": "/usr/local/bin/kubectl",
     "vscode-kubernetes.helm-path.mac": "/usr/local/bin/helm"
   },
-  "files.insertFinalNewline": true
+  "files.insertFinalNewline": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "prettier.singleQuote": true,
+  "yaml.format.enable": false
 }

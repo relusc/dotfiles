@@ -9,6 +9,7 @@ ms-azure-devops.azure-pipelines
 ms-azuretools.vscode-azureappservice
 ms-azuretools.vscode-azurefunctions
 ms-azuretools.vscode-azureresourcegroups
+ms-azuretools.vscode-azurestaticwebapps
 ms-azuretools.vscode-azurestorage
 ms-azuretools.vscode-azureterraform
 ms-azuretools.vscode-azurevirtualmachines
@@ -24,4 +25,5 @@ ms-vscode.powershell
 ms-vscode.vscode-node-azure-pack
 msazurermtools.azurerm-vscode-tools
 redhat.vscode-yaml
+Shinotatwu-DS.file-tree-generator
 timonwong.shellcheck
