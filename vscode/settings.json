@@ -19,10 +19,6 @@
   "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "terraform.languageServer": {
-    "external": true,
-    "args": ["serve"]
-  },
   "editor.suggestSelection": "first",
   "files.trimFinalNewlines": true,
   "files.trimTrailingWhitespace": true,
@@ -39,6 +35,9 @@
     ".*rc": "plaintext"
   },
   "go.toolsManagement.autoUpdate": true,
+  "go.alternateTools": {
+    "go": "/opt/homebrew/bin/go"
+  },
   "redhat.telemetry.enabled": false,
   "vs-kubernetes": {
     "vscode-kubernetes.kubectl-path.mac": "/usr/local/bin/kubectl",
@@ -47,5 +46,9 @@
   "files.insertFinalNewline": true,
   "diffEditor.ignoreTrimWhitespace": false,
   "prettier.singleQuote": true,
-  "yaml.format.enable": false
+  "yaml.format.enable": false,
+  "terraform.languageServer.enable": true,
+  "terminal.external.osxExec": "iTerm.app",
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "terminal.integrated.fontFamily": "MesloLGS NF"
 }
