@@ -1,0 +1,2 @@
+# Custom binary path for terraform
+bin = "/opt/homebrew/bin/terraform"
