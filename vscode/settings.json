@@ -4,7 +4,6 @@
   "go.formatTool": "goimports",
   "editor.scrollBeyondLastLine": false,
   "go.lintTool": "golangci-lint",
-  "editor.formatOnSave": true,
   "go.lintFlags": ["--fast"],
   "markdownlint.run": "onSave",
   "[json]": {
@@ -32,7 +31,8 @@
     "*.tfvars": "terraform",
     "*.hcl": "terraform",
     ".gcloudignore": "ignore",
-    ".*rc": "plaintext"
+    ".*rc": "plaintext",
+    "CODEOWNERS": "plaintext"
   },
   "go.toolsManagement.autoUpdate": true,
   "go.alternateTools": {
@@ -40,15 +40,29 @@
   },
   "redhat.telemetry.enabled": false,
   "vs-kubernetes": {
-    "vscode-kubernetes.kubectl-path.mac": "/usr/local/bin/kubectl",
-    "vscode-kubernetes.helm-path.mac": "/usr/local/bin/helm"
+    "vscode-kubernetes.kubectl-path.mac": "/opt/homebrew/bin/kubectl",
+    "vscode-kubernetes.helm-path.mac": "/opt/homebrew/bin/helm",
+    "vs-kubernetes.crd-code-completion": "disabled",
+    "vs-kubernetes.ignore-recommendations": true
   },
   "files.insertFinalNewline": true,
   "diffEditor.ignoreTrimWhitespace": false,
   "prettier.singleQuote": true,
   "yaml.format.enable": false,
-  "terraform.languageServer.enable": true,
+  "terraform.languageServer.terraform.path": "/opt/homebrew/bin/terraform",
   "terminal.external.osxExec": "iTerm.app",
   "terminal.integrated.defaultProfile.osx": "zsh",
-  "terminal.integrated.fontFamily": "MesloLGS NF"
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+  "shellcheck.executablePath": "/opt/homebrew/bin/shellcheck",
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "terraform.languageServer.enable": true,
+  "terraform.languageServer.indexing.ignoreDirectoryNames": [".git", "gitops"],
+  "[markdown]": {
+    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+  },
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "editor.formatOnSave": true,
+  "git.openRepositoryInParentFolders": "never"
 }
